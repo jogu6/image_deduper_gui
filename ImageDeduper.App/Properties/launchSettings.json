@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ImageDeduper.App (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ImageDeduper.App (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

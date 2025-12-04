@@ -1,0 +1,20 @@
+# Local-only design notes
+gui_design_notes.md
+
+# .NET build outputs
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Local architecture notes
+docs/core_architecture.md
+
+# Exclude sample Python references
+samplecodes/
+gui_design_notes.md
+
+# Local app settings
+setting.ini
+*.log
