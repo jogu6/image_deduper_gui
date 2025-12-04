@@ -1,7 +1,8 @@
 # Image Deduper (WinUI 3)
 
-Image Deduper is a Windows 11-style WinUI 3 desktop app that wraps the proven Python workflow from `samplecodes/`, scans an image folder, and moves lower-quality duplicates to a `duplicates/` subfolder using SHA-1, perceptual hash, and SSIM.
-Image Deduper は `samplecodes/` にある Python 版の手順を WinUI 3 で再構築した Windows 11 風デスクトップアプリで、画像フォルダーを走査し、SHA-1・pHash・SSIM を使って画質の劣る重複画像を `duplicates/` フォルダーに移動します。
+Image Deduper is a Windows 11-style WinUI 3 desktop app that ports the proven Image Deduper workflow into a modern GUI, scans an image folder, and moves lower-quality duplicates to a `duplicates/` subfolder using SHA-1, perceptual hash, and SSIM.
+
+Image Deduper は 従来の CLI 版フローを WinUI 3 で再構築した Windows 11 風デスクトップアプリで、画像フォルダーを走査し、SHA-1・pHash・SSIM を使って画質の劣る重複画像を `duplicates/` フォルダーに移動します。
 
 ## Download / ダウンロード
 
