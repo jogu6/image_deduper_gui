@@ -11,8 +11,8 @@ namespace ImageDeduper.App;
 
 public partial class App : Application
 {
-    private const int MinWidth = 640;
-    private const int MinHeight = 480;
+    private const int MinWidth = 720;
+    private const int MinHeight = 520;
     private AppWindow? _appWindow;
     private SizeInt32 _lastWindowSize;
     private IntPtr _hwnd;

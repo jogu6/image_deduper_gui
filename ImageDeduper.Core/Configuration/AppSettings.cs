@@ -5,6 +5,8 @@ namespace ImageDeduper.Core.Configuration;
 public sealed class AppSettings
 {
     private const string SettingsFileName = "setting.ini";
+    private const int MinWindowWidth = 720;
+    private const int MinWindowHeight = 520;
 
     public string Language { get; set; } = "en";
     public double DefaultSsimThreshold { get; set; } = 0.85;
@@ -132,21 +134,21 @@ public sealed class AppSettings
                 case "windowwidth":
                     if (int.TryParse(value, NumberStyles.Integer, CultureInfo.InvariantCulture, out var w))
                     {
-                        settings.WindowWidth = Math.Max(640, w);
+                        settings.WindowWidth = Math.Max(MinWindowWidth, w);
                     }
                     break;
                 case "windowheight":
                     if (int.TryParse(value, NumberStyles.Integer, CultureInfo.InvariantCulture, out var h))
                     {
-                        settings.WindowHeight = Math.Max(480, h);
+                        settings.WindowHeight = Math.Max(MinWindowHeight, h);
                     }
                     break;
             }
         }
 
         settings.EnsureFolders();
-        settings.WindowWidth = Math.Max(640, settings.WindowWidth);
-        settings.WindowHeight = Math.Max(480, settings.WindowHeight);
+        settings.WindowWidth = Math.Max(MinWindowWidth, settings.WindowWidth);
+        settings.WindowHeight = Math.Max(MinWindowHeight, settings.WindowHeight);
         return settings;
     }
 
