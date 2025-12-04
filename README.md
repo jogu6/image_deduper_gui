@@ -77,11 +77,6 @@ Settings (language, SSIM, pHash, codec hints) live in `setting.ini`, saved on ex
 Add new locale files and extend `AppSettings.Language` to support extra languages.  
 新しい言語を追加する場合は JSON を追加し、`AppSettings.Language` を拡張してください。
 
-## CLI Reference / 参考: CLI 版
-
-The legacy Python CLI (still fully functional) resides in `samplecodes/README.md`. The WinUI application mirrors its logic while providing a GUI layer.  
-旧 CLI 版（現在も動作）は `samplecodes/README.md` にあります。WinUI 版は同じロジックを GUI へ移植したものです。
-
 ## License / ライセンス
 
 - Source code: MIT License (`LICENSE`).  
