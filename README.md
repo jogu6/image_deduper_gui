@@ -1,6 +1,6 @@
 # Image Deduper (WinUI 3)
 
-[README](README.md) | [Site Index](index.md) | [Privacy Policy](privacy.md) | [Terms of Use](terms.md)
+[README](README.md) | [Site Index](docs/index.md) | [Privacy Policy](docs/privacy.md) | [Terms of Use](docs/terms.md)
 
 Image Deduper is a Windows 11-style WinUI 3 desktop app that ports the proven Image Deduper workflow into a modern GUI, scans an image folder, and moves lower-quality duplicates to a `duplicates/` subfolder using SHA-1, perceptual hash, and SSIM.
 
